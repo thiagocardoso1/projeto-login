@@ -2,8 +2,7 @@
 
 /* Paleta de cores:
    azul-1:#02A8A7
-   azul-2:#B0FFFF
-   laranja-1:#FB8F50
+   azul-2:#005ac2
 */
 
 * {
@@ -14,7 +13,7 @@
 }
 
 body, html {
-    background-color: #02A8A7;
+    background-color: #005ac2;
     height: 100vh;
     width: 100vw;
 }
@@ -23,6 +22,10 @@ main {
     height: 100vh;
     width: 100vw;
     position: relative;
+}
+
+section {
+    box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.514);
 }
 
 section#login {
@@ -36,12 +39,14 @@ section#login {
     top: 50%;
     transform: translate(-50%, -50%);
 
+    transition: width .3s, height .3s ;
+    transition-timing-function: ease;
 }
 
 div#imagem {
     display: block;
     height: 200px;
-    background: #02A8A7 url(../imagens/predio.jpg) no-repeat;
+    background: #3191ff93 url(../imagens/predio.jpg) no-repeat;
     background-size: contain;
     border-radius: 20px 20px 0px 0px;
 }
