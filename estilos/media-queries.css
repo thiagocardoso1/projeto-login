@@ -42,7 +42,7 @@ Grandes telas: acima de 1200px
 
     section#login {
         width: 950px;
-        height: 400px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -60,6 +60,7 @@ Grandes telas: acima de 1200px
         background-position: left center;
         width: 50%;
     }
+
 }
 
 

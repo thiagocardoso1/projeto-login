@@ -38,15 +38,15 @@ section {
 
 section#login {
     background-color: white;
-    height: 500px;
+    height: 510px;
     width: 250px;
     
     border-radius: 20px;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
 
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s ;
     transition-timing-function: ease;
 }
@@ -71,14 +71,31 @@ div#formulario > h1 {
 
 div#formulario > p {
     text-align: justify;
+    padding-bottom: 10px;
 }
 
 form > div.campo {
     background-color: #005ac2;
     width: 100%;
-    padding: 3px;
     margin: 5px 0px 5px 0px;
     border-radius: 5px;
+}
+
+form > div.campo > i {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form > div.campo > input {
+    background-color: #62e4e4;
+    width: calc(100% - 40px);
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+
+    transform: translateY(-3px);
 }
 
 label {
