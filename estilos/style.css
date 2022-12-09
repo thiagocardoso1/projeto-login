@@ -72,3 +72,53 @@ div#formulario > h1 {
 div#formulario > p {
     text-align: justify;
 }
+
+form > div.campo {
+    background-color: #005ac2;
+    width: 100%;
+    padding: 3px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 5px;
+}
+
+label {
+    display: none;
+}
+
+form > input[type=submit] {
+    background-color: #02A8A7;
+    color: white;
+    width: 100%;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+form > input[type=submit]:hover {
+    background-color: #005ac2;
+    cursor: pointer;
+}
+
+form > a.botao {
+    background-color: white;
+    color: #02A8A7;
+    width: 100%;
+    display: block;
+    border: 1px solid #02A8A7;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+form > a.botao:hover {
+    border: 1px solid #005ac2;
+    color: #005ac2;
+    background-color: rgb(245, 245, 245);
+}
+
+form > a.botao > i {
+    font-size: 0.8em;
+}

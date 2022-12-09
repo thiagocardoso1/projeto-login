@@ -18,25 +18,24 @@
                 <h1>Login</h1>
                 <p>Seja bem vindo(a) de volta!<br>Insira seu login e senha para continuar navegando.
                 </p>
-            </div>
-
-            <form action="esqueci.php" method="post" autocomplete="on">
-                <div>
-                    <i class="material-symbols-outlined">person</i>
-                    <input type="email" id="inome" required>
-                    <label for="inome">Usuário</label>
-                </div>
-                <div>
-                    <i class="material-symbols-outlined">vpn_key</i>
-                    <input type="password" id="isenha" minlength="8" maxlength="20">
-                    <label for="isenha">Senha</label>
-                </div>
-                <div>
+                <form action="esqueci.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <i class="material-symbols-outlined">person</i>
+                        <input type="email" id="inome" required placeholder="Seu email">
+                        <label for="inome">Login</label>
+                    </div>
+                    <div class="campo">
+                        <i class="material-symbols-outlined">vpn_key</i>
+                        <input type="password" id="isenha" minlength="8" maxlength="20" placeholder="Sua senha">
+                        <label for="isenha">Senha</label>
+                    </div>
                     <input type="submit" value="Entrar">
-                    <a href="esqueci.php">Esqueci minha senha</a>
-                    <i class="material-symbols-outlined">mail</i>
-                </div>
-            </form>
+                    <a href="esqueci.html" class="botao">
+                        Esqueci minha senha
+                        <i class="material-symbols-outlined">mail</i>
+                    </a>
+                </form>
+            </div>    
         </section>
     </main>
 </body>
